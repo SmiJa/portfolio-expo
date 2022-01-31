@@ -29,8 +29,8 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
 		padding: 15,
 		borderColor: '#ecb939',
-		borderStyle: 'double',
-		borderBottomWidth: 5,
+		borderStyle: 'solid',
+		borderBottomWidth: 3,
 		minHeight: 250,
   },
 	header: {

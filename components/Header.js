@@ -20,8 +20,8 @@ const styles = StyleSheet.create({
 		width: '100%',
 		maxHeight: 70,
 		borderColor: '#ecb939',
-		borderStyle: 'double',
-		borderBottomWidth: 5,
+		borderStyle: 'solid',
+		borderBottomWidth: 3,
   },
 	h1: {
 		fontWeight: "700",

@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
 		maxHeight: 50,
     backgroundColor: '#372e29',
 		borderColor: '#ecb939',
-		borderStyle: 'double',
-		borderTopWidth: 5,
+		borderStyle: 'solid',
+		borderTopWidth: 3,
   },
 	h1: {
 		fontWeight: "700",

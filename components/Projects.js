@@ -95,8 +95,8 @@ const styles = StyleSheet.create({
 		padding: 15,
 		minHeight: 1600,
 		borderColor: '#ecb939',
-		borderStyle: 'double',
-		borderBottomWidth: 5,
+		borderStyle: 'solid',
+		borderBottomWidth: 3,
   },
 	projectsHead: {
 		fontWeight: "700",

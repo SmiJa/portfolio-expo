@@ -17,7 +17,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'flex-start',
-		borderRadius: 5,
 		padding: 15,
 		maxHeight: 600,
   },
