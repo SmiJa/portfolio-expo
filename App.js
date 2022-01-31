@@ -1,19 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import Profile from './components/Profile';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import Education from './components/Education';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Header />
-      <Profile/>
-      <Projects />
-      <Education />
-      <Resume />
+      <ScrollView style={styles.scrolls}>
+        <Profile/>
+        <Projects />
+        <Education />
+        <Resume />
+      </ScrollView>
+      <Footer />
       <StatusBar style="auto" />
     </View>
   );
@@ -21,11 +25,16 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    maxHeight: '100vh',
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#726255',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    maxWidth: 960,
     margin: 'auto',
+    width: '100%',
   },
+  scrolls: {
+    flex: 1,
+    width: '100%',
+  }
 });

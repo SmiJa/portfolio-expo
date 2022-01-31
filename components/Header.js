@@ -1,8 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native';
+import { FontAwesome5 } from '@expo/vector-icons';
 
 export default function Header() {
 	return (
 		<View style={styles.header}>
+			
 			<Text style={styles.h1}>Jason Smith</Text>
 		</View>
 	);
@@ -11,19 +13,19 @@ export default function Header() {
 const styles = StyleSheet.create({
   header: {
     flex: 1,
-    backgroundColor: '#222',
+    backgroundColor: '#372e29',
     alignItems: 'center',
     justifyContent: 'center',
-		borderBottomLeftRadius: 5,
-		borderBottomRightRadius: 5,
 		padding: 10,
-		maxHeight: 600,
 		width: '100%',
-		maxHeight: 80,
+		maxHeight: 70,
+		borderColor: '#ecb939',
+		borderStyle: 'double',
+		borderBottomWidth: 5,
   },
-h1: {
-		fontWeight: 700,
-		fontSize: 40,
-		color: '#cdcdcd',
-	}
+	h1: {
+		fontWeight: "700",
+		fontSize: 38,
+		color: '#f0c75e',
+	},
 });
